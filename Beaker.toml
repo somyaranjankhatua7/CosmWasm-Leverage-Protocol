@@ -1,0 +1,21 @@
+name = "leverage-trade"
+
+[networks.testnet]
+chain_id = 'osmo-test-5'
+network_variant = 'Shared'
+grpc_endpoint = 'https://grpc.testnet.osmosis.zone'
+rpc_endpoint = 'https://rpc.testnet.osmosis.zone'
+
+
+[networks.local]
+chain_id = 'localosmosis'
+network_variant = 'Local'
+grpc_endpoint = 'http://localhost:9090'
+rpc_endpoint = 'http://localhost:26657'
+
+[accounts.test1]
+mnemonic = 'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius'
+
+
+[wasm]
+optimizer_version = '0.14.0'
